@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Lane 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- <h1 class="title">📍 Memory Lane</h1>
+
+<div class="memory-row">
+  <div class="memory-card" onclick="showMessage('memory1')">
+    <img src="images/1.jpeg">
+    <p> ❤️</p>
+  </div>
+
+  <div class="memory-card" onclick="showMessage('memory2')">
+    <img src="images/2.jpeg">
+    <p> ✨</p>
+  </div>
+
+  <div class="memory-card" onclick="showMessage('memory3')">
+    <img src="images/4.jpeg">
+    <p>💗</p>
+  </div>
+</div>
+ -->
+ <button class="next-btn" onclick="goTo('quiz.html')">Next ➡️</button>
+
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span onclick="closePopup()">×</span>
+    <p id="popupText"></p>
+  </div>
+</div> 
+<h1 class="title">📍 Memories</h1>
+
+<section class="memories-section">
+
+  <div class="memory-row">
+
+    <div class="memory-card" onclick="showMessage('memory1')">
+      <div class="image-wrapper">
+        <img src="images/1.jpeg" alt="Memory 1">
+      </div>
+      <p> ❤️</p>
+    </div>
+
+    <div class="memory-card" onclick="showMessage('memory2')">
+      <div class="image-wrapper">
+        <img src="images/2.jpeg" alt="Memory 2">
+      </div>
+      <p>✨</p>
+    </div>
+
+    <div class="memory-card" onclick="showMessage('memory3')">
+      <div class="image-wrapper">
+        <img src="images/4.jpeg" alt="Memory 3">
+      </div>
+      <p>💗</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
